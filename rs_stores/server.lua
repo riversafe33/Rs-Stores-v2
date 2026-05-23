@@ -280,7 +280,7 @@ AddEventHandler("rs_stores:buyItem", function(itemName, cantidad, tiendaId)
     if not itemData then return end
 
     local totalPrice = itemData.price * cantidad
-    totalPrice = math.floor(totalPrice * 100) / 100
+    totalPrice = math.floor(totalPrice * 100 + 0.5) / 100
 
     if itemData.weapon then
         local canCarry = exports.vorp_inventory:canCarryWeapons(src, cantidad, nil, itemData.item)
@@ -398,7 +398,7 @@ AddEventHandler("rs_stores:sellItem", function(itemName, cantidad, tiendaId)
     end
 
     local total = itemData.price * cantidad
-    total = math.floor(total * 100) / 100
+    total = math.floor(total * 100 + 0.5) / 100
 
     if itemData.gold then
         Character.addCurrency(1, total)
