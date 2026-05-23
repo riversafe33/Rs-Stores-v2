@@ -1,29 +1,25 @@
-I create and share digital tools with passion and purpose.
+# Donations
 
-There’s absolutely no pressure to donate, but if my work has been helpful to you, any contribution is sincerely appreciated.
+https://ko-fi.com/riversafe33
 
-Your support goes directly toward upgrading my PC and developing more free scripts for everyone.
+https://www.paypal.com/donate/?hosted_button_id=NX4ENSGYS6YJN
 
-Thank you for your support! ❤️ https://ko-fi.com/riversafe33
+# NPC Shop System V2 for vorp_core
 
-# ----------------------------------------------------------------- #
+1 - Ability to create shops for buying items, selling items, or both categories combined.
 
-This script allows you to place as many shops on the map as you want.
+2 - When opening the selling shop, it automatically detects which items the player has in their inventory and, if they are configured in the config file, gives the option to sell them.
 
-Ability to create a shop for both buying and selling
+3 - Option to use the shop with or without an NPC.
 
-Ability to create a shop for only buying or only selling
+4 - Option to use the shop with or without a blip.
 
-You can create a shop that moves around the map
+5 - Ability to create a shop that automatically changes location after a certain amount of time.
 
-Option to buy or sell using gold or cash
+6 - Ability to add categories, or set it to false so all items are displayed on the same page.
 
-Ability to sell or buy items or weapons
+7 - Ability to configure opening and closing hours, with the blip color changing depending on whether the shop is open or closed.
 
-Fully configurable from config.lua
+# 🎥 Showcase: https://streamable.com/d8s170
 
-# ----------------------------------------------------------------- #
-
-<img width="1040" height="697" alt="image" src="https://github.com/user-attachments/assets/7122db17-ca02-456d-b18f-692f975852fc" />
-
-<img width="1025" height="697" alt="image" src="https://github.com/user-attachments/assets/f9c89130-617d-4b62-a9a7-e03e90d9dabc" />
+<img width="980" height="589" alt="image" src="https://github.com/user-attachments/assets/a1a4df42-a8ed-432e-a8b6-da3a2bb82b29" />
